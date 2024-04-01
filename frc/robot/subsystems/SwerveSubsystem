@@ -1,0 +1,14 @@
+
+
+public class SwerveSubsystem {
+
+
+//Constructor
+ public SwerveSubsystem() { 
+ System.out.println("SwerveSubsystem constructor");
+SwerveModule frontLeftModule = new SwerveModule(1, 2);
+SwerveModule frontRightModule = new SwerveModule(3, 4);
+SwerveModule backLeftModule = new SwerveModule(5, 6);
+SwerveModule backRightModule = new SwerveModule(7, 8);
+ }
+}
